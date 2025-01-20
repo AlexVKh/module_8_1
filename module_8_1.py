@@ -1,6 +1,6 @@
 def add_everything_up(a,b):
     try:
-        return(a + b)
+        return(f'{(a + b):.3f}')
     except TypeError:
         return(str(a)+str(b))
 
